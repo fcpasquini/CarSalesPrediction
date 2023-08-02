@@ -1,0 +1,22 @@
+<h2>Welcome to the project Car Sales Prediction</h2>
+
+<h3>Author: Fabio Cardoso Pasquini</h3>
+
+<p>This project is based on the Udemy course <b>'Machine Learning Practical Workout | 8 Real-World Projects'</b>, especifically the <b>project 1 - 'Artificial Neural Networks - Car Sales Prediction'</b>.</p>
+
+<p>The objective of this project is to deploy a Neural Network model that I created, which is able to receive data from a car loan requester and predict the total amount of loan the bank is going to approve, so any user can try out my model to predict its own set of data of american car loan requesters.</p>
+
+<p>The source code of the project that created the model and the streamlit app can be found on <a href='https://github.com/fcpasquini/CarSalesPrediction'>Github</a></p>
+
+<p>The project is divided in the following pages:</p>
+
+<li> <b>Neural Network Creation:</b> This page shows the steps I followed to be able to create my Regression Neural Network, train it and refine its parameters and architecture;</li>
+
+<li> <b>Dashboard:</b> This page shows graphs and summarized information about the data patterns;</li>
+
+<li> <b>Predict :</b> This page allows the user to define information of a new loan requester, to predict the total amount the bank is going to approve for the loan.</li>
+
+<li> <b>Acknowledgments:</b> This page shows all the links, people and organizations that influenced the creation of this project.</li>
+
+<br>
+
