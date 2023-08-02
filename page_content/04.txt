@@ -1,0 +1,5 @@
+<h2>Acknowledgments of the project</h2>
+
+<p>I would like to thank all parties involved in the project. They are:</p>
+
+<li><a href='https://www.udemy.com/course/deep-learning-machine-learning-practical/'>Udemy Course: Machine Learning Practical Workout | 8 Real-World Projects</a>: for its simple and deep instruction that allowed me to create my own apps.</li>

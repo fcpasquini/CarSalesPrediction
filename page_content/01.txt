@@ -1,0 +1,48 @@
+
+<h1> Summary </h1>
+
+<p>In this project, I created a Neural Network, capable of predict, given 3 demographic and 3 financial data of a person, how much the bank will aprove for her in a car loan.</p>
+
+<h1> The data </h1>
+
+<p>The data was previously splitted between train, test and validation, and shared by the instructor of the Udemy course 'Machine Learning Practical Workout | 8 Real-World Projects'</p>
+
+<p>The entire dataset was stored in a csv file, containing the following data:</p>
+
+<li> Gender: The gender of the person (Male, Female or Other);</li>
+
+<li> Country: The country of birth of the person;</li>
+
+<li> Age: The age of the person, in years;</li>
+
+<li> Annual Salary: The gross value of income of the person, annualized;</li>
+
+<li> Credit Card Debt: The amount of debts the person has in credit cards;</li>
+
+<li> Net Worth: The summed value of all assets of the person</li>
+
+<br> 
+
+<h1> The model architecture </h1>
+
+<p>The final model selected was a Neural Network, with the following structure:</p>
+
+<li> Input Layer: 25 nodes, with 215 inputs (the number of dimensions of our dataset after getting dummies) and relu as activation function</li>
+
+<li> Hidden Layer 1: 25 nodes, with 25 inputs and softmax as activation function</li>
+
+<li> Hidden Layer 2: 10 nodes, with 25 inputs and relu as activation function</li>
+
+<li> Output Layer: 1 node, with 10 inputs and linear as activation function</li>
+
+<br>
+
+<h1> The training and optimization </h1>
+
+<p>The model was then trained using a dataset with 375 observations, validated with 10% of these 375 observations (38) and tested with 125 observations.</p>
+
+<p>The optimizer used was the RMSProp and the cost function selected was the Mean Squared Error.</p>
+
+<p>The number of epochs with better cost/benefit was 100, with a batch size of 10</p>
+
+<p>The Mean Squared Error of the predictions of the model on the test dataset was of less than <b>US$ 1,500</b>, which is really low.</p>

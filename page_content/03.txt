@@ -1,0 +1,5 @@
+<h2>Loan Value Approval Prediction<h2>
+
+<p>In this page, you can insert your own data to predict the amount of Loan our model predicts that will be approved.</p>
+
+<p>Simply change the sliders and select the information from the drop down lists, and click "Predict my loan".</p>
